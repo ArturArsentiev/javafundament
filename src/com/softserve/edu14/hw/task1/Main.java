@@ -24,6 +24,8 @@ public class Main {
         System.out.println(sortedList);
     }
 
+           //12032024
+
     public static Product createProduct() {
         return new Product(Category.randomCategory(), randomDate(), random.nextInt(0, 100));
     }
